@@ -131,7 +131,7 @@ class Edge extends Item {
     return [];
   }
   _shouldDraw() {
-    return super._shouldDraw() && this.linkedItemVisible();
+    return super._shouldDraw();
   }
   _getPoint(point) {
     if (point.isItem) {
